@@ -1,0 +1,23 @@
+aside{
+    width: 100%;
+    grid-area: sidebar;
+    display: flex;
+    justify-items: center;
+}
+aside ul{
+    width: 100%;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: #1839c9;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.item:hover{
+    background: rgba(24, 63, 226, 0.71);
+}

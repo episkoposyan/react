@@ -1,0 +1,12 @@
+main{
+    width: 100%;
+    background: #e2a111;
+    grid-area: main;
+}
+main > img {
+    height: 150px;
+    width: 100%}
+main section img{
+    margin: 5px;
+    height: 200px;
+}
